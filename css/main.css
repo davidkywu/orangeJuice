@@ -1,0 +1,136 @@
+
+body{
+	font-family: 'Poiret One', cursive;
+	margin: 0;
+}
+
+.navigation{
+	background-color: darkorange;
+	height: 85px;
+	margin: 25;
+}
+
+.navigation .logo{
+	color: #fff;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 15px;
+	padding: 15px 35px 35px 35px;
+	margin-left: 35px;
+}
+
+/*navigation*/
+
+
+.navigation ul {
+
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 35px 15px 15px;
+	margin-top: 20px;
+
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	color: #fff;
+	margin-right: 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+/*middle of page*/
+
+.container {
+	background-color: #fff;
+	height: 100px;
+}
+
+.container .search {
+	color: grey;
+	display: block;
+	float: right;
+	margin: 5px 50px;
+	padding: 10px 35px;
+	height: 50px;
+	width: 100px;
+
+}
+
+.input {
+	background: grey;
+	color: grey;
+}
+
+.fa.fa-search {
+	position: absolute;
+	top: 16%;
+	right: 25px;
+	float: right;
+}
+
+div.middle {
+	height:500px;
+	margin: 25px 0;
+	padding: 5px 0 20px 0;
+	text-align: center;
+
+}
+
+.img{
+	display: inline-block;
+	margin: 25px 0;
+	padding: 30px;
+	width: auto;
+}
+
+.content {
+	display: inline-block;
+	font-size: 28px;
+	color: orange;
+	margin: 25px 0;
+	padding: 30px;
+	width: auto;
+	text-align: left;
+
+}
+
+.orange{
+	font-weight: bold;
+}
+
+.thin{
+	font-weight: thin;
+}
+
+.buttons {
+	border-radius: 10px;
+	border: none;
+	display: inline-block;
+	font-size: 28px;
+	padding:10px 15px;
+	color: white;
+	width: 300px;
+	height: 100px;
+
+}
+
+
+.middle.content.buttons.quote{
+	background-color: darkorange;
+}
+
+/*footer*/
+.footer{
+	background-color: lightblue;
+	height: 85px;
+
+}
+
