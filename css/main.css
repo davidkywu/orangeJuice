@@ -71,7 +71,7 @@ body{
 
 .fa.fa-search {
 	position: absolute;
-	top: 16%;
+	top: 102px;
 	right: 25px;
 	float: right;
 }
@@ -110,27 +110,37 @@ div.middle {
 	font-weight: thin;
 }
 
-.buttons {
-	border-radius: 10px;
-	border: none;
-	display: inline-block;
-	font-size: 28px;
-	padding:10px 15px;
-	color: white;
-	width: 300px;
-	height: 100px;
-
+div.buttons {
+	
 }
 
-
-.middle.content.buttons.quote{
+ .quote{
+ 	border: none;
+ 	border-radius: 4px;
+	height: 40px;
+	width: 150px;
 	background-color: darkorange;
+	color: white;
+	margin: 10px;
+
 }
 
+.view{
+	border: none;
+	background-color: lightblue;
+	border-radius: 4px;
+	color: white;
+	height: 40px;
+	width: 150px;
+	margin: 10px;
+}
 /*footer*/
 .footer{
 	background-color: lightblue;
 	height: 85px;
-
+	bottom: 0;
+	position:absolute;
+   bottom:0;
+   width:100%;
 }
 
